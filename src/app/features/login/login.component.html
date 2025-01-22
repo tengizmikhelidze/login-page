@@ -1,27 +1,39 @@
 <div class="login--wrapper">
   <form class="sign-up">
-    <div class="sign-up-row row-1">
-      <h1>Welcome to Login Page</h1>
-      <h3>Already have an account? <span>Log in</span></h3>
+    <div class="sign-up-content">
+      <div class="sign-up-row row-1">
+        <h1>Welcome to Login Page</h1>
+        <h3>Already have an account? <span>Log in</span></h3>
+      </div>
+      <div class="sign-up-row row-2">
+        <label for="sign-up-email">Email</label>
+        <mat-form-field>
+          <input matInput id="sign-up-email" type="email">
+        </mat-form-field>
+      </div>
+      <div class="sign-up-row row-3">
+        <label for="sign-up-password">Password</label>
+        <mat-form-field>
+          <input matInput  id="sign-up-password" type="password">
+        </mat-form-field>
+      </div>
+      <div class="sign-up-row row-4">
+        <mat-checkbox class="example-margin">
+          I want to receive emails about the product, feature updates, events, and marketing promotions.
+        </mat-checkbox>
+      </div>
+      <div class="sign-up-row row-5">
+        <p>By creating an account, you agree to the Terms of use and Privacy Policy. </p>
+      </div>
+      <div class="sign-up-row row-6">
+        <button mat-flat-button>Basic</button>
+        <p>
+          Already have an account? <span>Log in</span>
+        </p>
+      </div>
     </div>
-    <div class="sign-up-row row-2">
-      <label for="sign-up-email">Email</label>
-      <mat-form-field>
-        <input matInput id="sign-up-email">
-      </mat-form-field>
-    </div>
-    <div class="sign-up-row row-3">
-      <label for="sign-up-password">Password</label>
-      <mat-form-field>
-        <input matInput  id="sign-up-password">
-      </mat-form-field>
-    </div>
-    <div class="sign-up-row row-4"></div>
-    <div class="sign-up-row row-5"></div>
-    <div class="sign-up-row row-6"></div>
-    <div class="sign-up-row row-7"></div>
   </form>
-  <div class="sign-in">
-    <img src="assets/images/login.png">
-  </div>
+  <form class="sign-in">
+    <img ngSrc="assets/images/login.png" width="597" height="1024">
+  </form>
 </div>
