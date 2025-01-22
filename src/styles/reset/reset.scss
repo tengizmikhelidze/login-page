@@ -1,3 +1,5 @@
+@import '../fonts/fonts';
+
 *, *:before, *:after {
   box-sizing: border-box;
   user-select: none;
@@ -9,7 +11,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
-  font-family: "Open Sans", serif;
+  font-family: "Poppins-Regular", serif;
   color: var(--color-text-initial__100);
 }
 
