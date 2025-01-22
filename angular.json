@@ -31,7 +31,8 @@
                 "input": "public"
               },
               "src/config.json",
-              "src/assets/fonts"
+              "src/assets/fonts",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss",
@@ -98,7 +99,8 @@
                 "input": "public"
               },
               "src/config.json",
-              "src/assets/fonts"
+              "src/assets/fonts",
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss",
