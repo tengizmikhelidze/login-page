@@ -1,0 +1,19 @@
+.mat-mdc-text-field-wrapper {
+  background-color: transparent !important;
+  border: 1px solid #66666635;
+  border-radius: 12px !important;
+}
+
+.mdc-line-ripple {
+  display: none;
+}
+
+.mat-internal-form-field>label {
+  font-family: "Poppins-Regular", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #333333;
+}

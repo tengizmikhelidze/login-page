@@ -3,7 +3,7 @@
     <div class="sign-up-content">
       <div class="sign-up-row row-1">
         <h1>Welcome to Login Page</h1>
-        <h3>Already have an account? <span>Log in</span></h3>
+        <h3>Already have an account? <span  class="login-button">Log in</span></h3>
       </div>
       <div class="sign-up-row row-2">
         <label for="sign-up-email">Email</label>
@@ -26,9 +26,9 @@
         <p>By creating an account, you agree to the Terms of use and Privacy Policy. </p>
       </div>
       <div class="sign-up-row row-6">
-        <button mat-flat-button>Basic</button>
+        <button [disabled]="true" mat-flat-button>Create An Acoount</button>
         <p>
-          Already have an account? <span>Log in</span>
+          Already have an account? <span class="login-button">Log in</span>
         </p>
       </div>
     </div>

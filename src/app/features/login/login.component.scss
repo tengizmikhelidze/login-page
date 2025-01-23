@@ -38,7 +38,22 @@
   }
 
   .sign-up-row {
+    font-family: "Poppins-Regular", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #333333;
+
+
     &.row-2, &.row-3 {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-row-gap: 8px;
+    }
+
+    &.row-6 {
       display: grid;
       grid-template-rows: auto auto;
       grid-row-gap: 8px;
@@ -51,7 +66,7 @@
   width: 100%;
   img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,4 +74,9 @@
     bottom: 0;
     object-fit: fill;
   }
+}
+
+.login-button {
+  text-decoration: underline;
+  text-underline-color: #333333;
 }
